@@ -1,0 +1,92 @@
+.header {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header-title {
+  font-size: 42px;
+  margin-bottom: 60px;
+}
+
+.jump-to-order-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  margin-bottom: 60px;
+  background-color: #007bff; /* Синий цвет (можно изменить) */
+  color: white;
+  text-decoration: none;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Эффекты при наведении и нажатии */
+.jump-to-order-btn:hover {
+  background-color: #0069d9;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.jump-to-order-btn:active {
+  background-color: #005cbf;
+  transform: translateY(0);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Вариант для disabled-состояния */
+.jump-to-order-btn:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+.nav {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+  margin: 40px 0px 100px 0px;
+  border-bottom: 1px solid rgb(151, 151, 151);
+}
+
+.nav-item {
+  background-color: transparent;
+  margin: 0 1rem;
+}
+
+.nav-link {
+  color: #333333;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #bbbbbb;
+}
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 768px) {
+  .nav-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-item {
+    margin: 0.5rem 0;
+  }
+}

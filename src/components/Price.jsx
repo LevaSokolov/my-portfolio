@@ -1,5 +1,5 @@
-const Skills = () => {
-  const skills = [
+const Price = () => {
+  const Price = [
     "Видеосъёмка с дрона. До 3-х часов нахождения на площадке (общее время полёта 1 час): 8000 руб.",
     "Последующие часы нахождения на площадке по истечению 3-х часов: 1000 руб.",
     "Фотографии с дрона (время полета 25 мин): 5000 руб.",
@@ -12,7 +12,7 @@ const Skills = () => {
     <section>
       <h2>Тарифы на услуги</h2>
       <ul>
-        {skills.map((skill, index) => (
+        {Price.map((skill, index) => (
           <li key={index}>{skill}</li>
         ))}
       </ul>
@@ -20,4 +20,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default Price;
