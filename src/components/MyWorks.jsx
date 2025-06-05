@@ -7,7 +7,8 @@ const WorksGallery = () => {
   const works = [
     {
       title: "Исследование трафика",
-      description: "Исследование трафика",
+      description:
+        "Здача заключалась в необходимости посчитать количество трафика в утренний и вечерний час пик. Запись велась по 20 минут на каждом этапе. С помощью специальной программы было посчитано количество трафика из видеозаписей",
       photos: [
         "/images/trafic1.jpg",
         "/images/trafic2.jpg",
@@ -17,21 +18,28 @@ const WorksGallery = () => {
       ],
     },
     {
-      title: "Фотосессия на природе",
-      description: "Пейзажная фотография в горах Кавказа",
+      title: "Агронеделя в Экспоцентре",
+      description:
+        "Важная промышленная выставка с большим количеством техники. Задача показать масштаб выставки. Полеты проходили на улице и в помещении",
       photos: [
-        "/images/nature1.jpg",
-        "/images/nature2.jpg",
-        "/images/nature3.jpg",
+        "/images/expo1.png",
+        "/images/expo2.jpg",
+        "/images/expo3.png",
+        "/images/expo4.png",
       ],
     },
     {
-      title: "Ивент-съёмка",
-      description: "Охват музыкального фестиваля с разных ракурсов",
+      title: "Зеленый марафон от Сбера",
+      description:
+        "Крупнейшее беговое событие. Огромное количество участников и активностей",
       photos: [
-        "/images/event1.jpg",
-        "/images/event2.jpg",
-        "/images/event3.jpg",
+        "/images/sber2.jpg",
+        "/images/sber3.jpg",
+        "/images/sber4.jpg",
+        "/images/sber6.jpg",
+        "/images/sber7.jpg",
+        "/images/sber8.jpg",
+        "/images/sber9.jpg",
       ],
     },
   ];
