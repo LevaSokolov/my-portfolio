@@ -1,7 +1,7 @@
 import Header from "../src/components/Header";
 import About from "../src/components/About";
 import Price from "../src/components/Price";
-import Contact from "../src/components/Contact";
+import ContactForm from "../src/components/ContactForm";
 import Gallery from "../src/components/Gallery";
 import MyWorks from "../src/components/MyWorks";
 import Reviews from "../src/components/Reviews";
@@ -16,7 +16,7 @@ export default function Home() {
       <Price />
       <MyWorks />
       <Reviews />
-      <Contact />
+      <ContactForm />
     </main>
   );
 }
